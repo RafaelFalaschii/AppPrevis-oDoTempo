@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Fundo circular -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Letra R -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M35,35 L50,35 Q60,35 60,45 Q60,52 53,55 L62,70 L52,70 L44,56 L42,56 L42,70 L35,70 Z M42,42 L42,50 L50,50 Q53,50 53,46 Q53,42 50,42 Z" />
+
+    <!-- Letra F -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M68,35 L85,35 L85,42 L75,42 L75,49 L83,49 L83,56 L75,56 L75,70 L68,70 Z" />
+</vector>

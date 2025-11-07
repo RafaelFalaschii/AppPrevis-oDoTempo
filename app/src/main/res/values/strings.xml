@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Previsão do Tempo</string>
+    <string name="enter_city">Digite sua cidade</string>
+    <string name="continue_btn">Continuar</string>
+    <string name="about">Sobre</string>
+    <string name="weather">Tempo</string>
+    <string name="map">Mapa</string>
+    <string name="scan_qr">Escanear QR Code</string>
+    <string name="partially_cloudy">parcialmente nublado</string>
+    <string name="your_calendar">Seu calendário</string>
+    <string name="weather_icon">Ícone do clima</string>
+</resources>

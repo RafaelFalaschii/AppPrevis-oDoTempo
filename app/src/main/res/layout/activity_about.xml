@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/foto_perfil"
+            android:contentDescription="Profile Picture"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rafael Braga Falaschi"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/studentRA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RA: 09044973"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/studentCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Análise e desenvolvimento de sistemas"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/studentPolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Polo: Umuarama"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/unipar_ead_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIPAR EAD"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:id="@+id/imgQrCodeCity"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="QR Code da Cidade Atual"
+            android:background="@android:color/white"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
