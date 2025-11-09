@@ -28,24 +28,24 @@ Além disso, o app conta com um **mapa interativo**, uma **tela de sobre com inf
 ## 🧩 Estrutura do Projeto
 
 app/
-├── manifests/
-│ └── AndroidManifest.xml
-├── java/com/example/previsontempo/
-│ ├── adapters/
-│ ├── api/
-│ ├── fragments/
-│ ├── models/
-│ ├── AboutActivity.java
-│ ├── CityInputActivity.java
-│ ├── MainActivity.java
-│ ├── SplashActivity.java
-│ └── SharedViewModel.java
-├── res/
-│ ├── drawable/
-│ ├── layout/
-│ ├── menu/
-│ ├── mipmap/
-│ └── values/
+-├── manifests/
+-│ └── AndroidManifest.xml
+-├── java/com/example/previsontempo/
+-│ ├── adapters/
+-│ ├── api/
+-│ ├── fragments/
+-│ ├── models/
+-│ ├── AboutActivity.java
+-│ ├── CityInputActivity.java
+-│ ├── MainActivity.java
+-│ ├── SplashActivity.java
+-│ └── SharedViewModel.java
+-├── res/
+-│ ├── drawable/
+-│ ├── layout/
+-│ ├── menu/
+-│ ├── mipmap/
+-│ └── values/
 
 
 ---
