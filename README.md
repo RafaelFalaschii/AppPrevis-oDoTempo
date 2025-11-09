@@ -25,31 +25,6 @@ Além disso, o app conta com um **mapa interativo**, uma **tela de sobre com inf
 
 ---
 
-## 🧩 Estrutura do Projeto
-
-app/
-  ├── manifests/
-  │ └── AndroidManifest.xml
-  ├── java/com/example/previsontempo/
-  │ ├── adapters/
-  │ ├── api/
-  │ ├── fragments/
-  │ ├── models/
-  │ ├── AboutActivity.java
-  │ ├── CityInputActivity.java
-  │ ├── MainActivity.java
-  │ ├── SplashActivity.java
-  │ └── SharedViewModel.java
-  ├── res/
-  │ ├── drawable/
-  │ ├── layout/
-  │ ├── menu/
-  │ ├── mipmap/
-  │ └── values/
-
-
----
-
 ## ⚙️ Tecnologias Utilizadas
 
 - **Linguagem:** Java ☕  
@@ -74,12 +49,27 @@ app/
 - Boas práticas de **UX/UI**  
 
 ---
+## 🧩 Estrutura do Projeto
 
-## 🖼️ Capturas de Tela
-
-<p align="center">
-  <img src="https://github.com/RafaelFalaschii/AppPrevis-oDoTempo/blob/main/screenshots/tela_principal.png" width="300">
-</p>
+app/
+  ├── manifests/
+  │ └── AndroidManifest.xml
+  ├── java/com/example/previsontempo/
+  │ ├── adapters/
+  │ ├── api/
+  │ ├── fragments/
+  │ ├── models/
+  │ ├── AboutActivity.java
+  │ ├── CityInputActivity.java
+  │ ├── MainActivity.java
+  │ ├── SplashActivity.java
+  │ └── SharedViewModel.java
+  ├── res/
+  │ ├── drawable/
+  │ ├── layout/
+  │ ├── menu/
+  │ ├── mipmap/
+  │ └── values/
 
 ---
 
